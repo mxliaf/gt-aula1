@@ -1,0 +1,94 @@
+body {
+    background-image: url('https://i.pinimg.com/1200x/1f/bb/c0/1fbbc09b30e426d372de8dc35993e327.jpg');
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+.nome {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo {
+    color: blanchedalmond;
+    font-size: 35px;
+    background-color: rgb(139, 73, 2);
+    width: max-content;
+    border-radius: 10px;
+}
+
+.pfp {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eu {
+    border-radius: 20px;
+}
+.subtitulo {
+    color: rgb(139, 73, 2);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texto {
+    color: white;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecnologias {
+    color: white;
+    background-color: rgba(233, 150, 122, 0.452);
+    border: 2px solid rgb(139, 73, 2);
+    border-radius: 10px;
+    size: 10px;
+    width: 15%;
+    
+}
+
+.alinhar {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+li {
+    transition: 0.5s;
+}
+
+.tecnologias:hover {
+    width: 250px;
+    transition: 0.5s;
+}
+
+.redes:hover {
+    transform: scale(0.95);
+    transition: 0.5s;
+}
+
+.eu:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+    transition: transform 0.3s ease; 
+}
